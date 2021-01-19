@@ -5,13 +5,13 @@ public class Donuts {
 
     public static void main(String[] args) {
         for (int i = 0; i < 100; i++) {
-            System.out.println("num of dounuts:" +i);
+            System.out.println("num of donuts:" +i);
             System.out.println(getTime(i,5));
         }
     }
 
     /**
-     * returns the total time for the daunts
+     * returns the total time for the donuts
      * Complexity: O(1)
      */
     public static int getTime(int numOfDonuts, int capacity) {

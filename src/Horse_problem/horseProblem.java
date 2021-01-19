@@ -5,8 +5,9 @@ import java.util.Comparator;
 
 /**
  * n^2 horses - an array of speed
- * n horses in each race
+ * n horses in each race (n>=5)
  * find the 3 fastest horses
+ * counter will equal- n+2!
  */
 public class horseProblem {
 
@@ -63,7 +64,7 @@ public class horseProblem {
     }
 
     public static void main(String[] args) {
-        int[] horses ={4,6,8,10,12,14,15,18,19,20,21,22,23,24,25,26,45,28,29,30,31,33,34,36,37};
-        printTop3(horses);
+        int[] horses ={4,6,8,10,97,14,56,18,19,20,21,22,23,24,25,26,45,28,29,30,31,33,34,36,37};
+        System.out.println("amount of races: "+printTop3(horses));
     }
 }

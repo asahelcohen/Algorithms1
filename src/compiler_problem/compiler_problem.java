@@ -1,5 +1,13 @@
 package compiler_problem;
 
+/**
+ * compiler problem\ secretary problem.
+ * The catch is that everyone is already at the office waiting and the secretary knows how long each person will take.
+ * the goal of the secretary is to let n amount of people in to an interview, with a minimum average time of waiting.
+ * solution: all the secretary need to do is let the in by minimum interview time.
+ * complexity: o(n log n) (merge sort)
+ * compiler problem- same as secretary just time need to be calculated for each.
+ */
 public class compiler_problem {
     public static void main(String[] args) {
         Program p1 = new Program("a1",6,6);
