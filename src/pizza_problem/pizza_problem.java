@@ -2,7 +2,7 @@ package pizza_problem;
 
 public class pizza_problem {
     public static void main(String[] args) {
-        System.out.println(pizza(3,4));
+        System.out.println(pizza(2,3));
     }
     public static int pizza(double x, int n) {
         int k = (int) x + 1;

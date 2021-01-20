@@ -325,11 +325,11 @@ public class airplane {
             mat[3][2] = new Node(1, 0);
             mat[3][3] = new Node(0, 0);
             BestPath bp = new BestPath(mat);
-//            System.out.println(bp.cheapestPrice);
-//            System.out.println(bp.numOfPaths);
-//            System.out.println(bp.getOnePath());
+            System.out.println(bp.cheapestPrice);
+            System.out.println(bp.numOfPaths);
+            System.out.println(bp.getOnePath());
 //            System.out.println(bp.getOnePathRec());
-            System.out.println(bp.getAllPathsRec());
+//            System.out.println(bp.getAllPathsRec());
 //            System.out.println(bp.isOnBestPath(1, 1));
 //            System.out.println(bp.isOnBestPath(1, 2));
 //            System.out.println(bp.isOnBestPath(new Node[]{new Node(1, 1), new Node(1, 2), new Node(1, 3)}));
